@@ -1,0 +1,9 @@
+.env
+*.bak
+__pycache__/
+*.log
+venv/
+.venv/
+*.kate-swp
+.*.kate-swp
+*.swp

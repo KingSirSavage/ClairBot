@@ -1,15 +1,14 @@
+# Secrets
 .env
-*.bak
+*.db
+*.sqlite3
+
+# Python
 __pycache__/
-*.log
+*.py[cod]
 venv/
-.venv/
-*.kate-swp
-.*.kate-swp
-*.swp
-user_memories.json
-*.json
-user_memories.json
-*.json
-user_memories.json
-*.json
+.npm-global/
+
+# System
+.DS_Store
+logs/

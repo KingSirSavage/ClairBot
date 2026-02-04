@@ -15,7 +15,8 @@ WORKDIR /app
 # If you change your code but not your requirements, Docker won't re-download pip packages.
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-
+# Inside your Dockerfile
+RUN pip install discord.py python-dotenv requests aiohttp psutil
 # 5. Copy the rest of the application code
 COPY . .
 
